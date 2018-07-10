@@ -57,10 +57,8 @@
     "lodash": "^4.17.10",
     "memoizee": "^0.4.12",
     "prop-types": "^15.5.10",
-    "react": "^16.4.1",
     "react-collapse": "^4.0.3",
     "react-debounce-input": "^3.2.0",
-    "react-dom": "^16.4.1",
     "react-immutable-proptypes": "2.1.0",
     "react-immutable-pure-component": "^1.1.1",
     "react-inspector": "^2.3.0",
@@ -79,6 +77,10 @@
     "xml-but-prettier": "^1.0.1",
     "yaml-js": "^0.2.3",
     "zenscroll": "^4.0.2"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^8.4.1",
